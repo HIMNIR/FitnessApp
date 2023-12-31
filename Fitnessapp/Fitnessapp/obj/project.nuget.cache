@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fW5mlLDtRA9cdCPvw2evieMI95NMBiTl4uGvJqlzVvtM2BPAI5ySyAMdrFOO4SqQmMeUiHqSAvUedsoK1EsqtA==",
+  "dgSpecHash": "FiKCXGsM4jip6ioJNNO0BXAMsjbBj/rMQLs+M2foos/CyKhFajRyceBVyBhTUiF3zeYPx9FqrYd/bdei3nIvmw==",
   "success": true,
   "projectFilePath": "C:\\Users\\utsav\\FitnessApp\\Fitnessapp\\Fitnessapp\\Fitnessapp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\utsav\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\utsav\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\utsav\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\utsav\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

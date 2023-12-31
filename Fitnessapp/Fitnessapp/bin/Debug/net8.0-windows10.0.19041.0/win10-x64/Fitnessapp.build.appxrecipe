@@ -247,6 +247,9 @@
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\calories.scale-100.png">
+      <PackagePath>calories.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\carbs.scale-100.png">
       <PackagePath>carbs.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -274,6 +277,9 @@
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\filler.scale-100.png">
       <PackagePath>filler.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\goals.scale-100.png">
+      <PackagePath>goals.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\protein.scale-100.png">
       <PackagePath>protein.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -282,6 +288,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sugars.scale-100.png">
       <PackagePath>sugars.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\walking.scale-100.png">
+      <PackagePath>walking.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\water.scale-100.png">
       <PackagePath>water.scale-100.png</PackagePath>

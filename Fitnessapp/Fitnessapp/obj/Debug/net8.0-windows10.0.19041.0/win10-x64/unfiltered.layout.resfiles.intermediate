@@ -62,6 +62,7 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
+calories.scale-100.png
 carbs.scale-100.png
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
@@ -71,9 +72,11 @@ dotnet_bot.scale-400.png
 fat.scale-100.png
 fibre.scale-100.png
 filler.scale-100.png
+goals.scale-100.png
 protein.scale-100.png
 sugar.scale-100.png
 sugars.scale-100.png
+walking.scale-100.png
 water.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
