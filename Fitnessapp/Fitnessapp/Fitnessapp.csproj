@@ -85,6 +85,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Goals.xaml.cs">
+	    <DependentUpon>Goals.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Goals.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Resources\Styles\Theme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

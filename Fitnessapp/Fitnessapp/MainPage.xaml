@@ -12,8 +12,8 @@
 
         <StackLayout Padding="10">
             <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
-                <Label Text="Welcome Name" FontSize="Title" FontFamily="LobsterTwo-Regular" TextColor="White"  />
-                
+                <Label Text="{Binding Name, StringFormat='Welcome {0}!'}" FontSize="Title" FontFamily="LobsterTwo-Regular" TextColor="White" />
+
             </StackLayout>
            
             <Label Text="Fitness app" FontSize="Title" FontFamily="LobsterTwo-Regular" TextColor="White" />
@@ -22,7 +22,7 @@
                 <StackLayout Spacing="2" Orientation="Vertical">
                 <StackLayout Orientation="Horizontal">
                     <Image Source="walking.png" />
-                        <Label Text="4000/5000 Steps" Style="{StaticResource CommonLabelStyle}" />
+                        <Label Text="{Binding Steps, StringFormat='20 / {0}'}"  Style="{StaticResource CommonLabelStyle}" />
 
                     </StackLayout>
                 <ProgressBar Progress="0.6" />
@@ -34,7 +34,7 @@
                 <StackLayout Spacing="2" Orientation="Vertical">
                     <StackLayout Orientation="Horizontal">
                         <Image Source="calories.png" />
-                        <Label Text="Calories consumed today" Style="{StaticResource CommonLabelStyle}" />
+                        <Label Text="{Binding Calories, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
 
                     </StackLayout>
                     <ProgressBar Progress="0.6" />
@@ -49,33 +49,33 @@
                     <StackLayout Spacing=".5" Orientation="Horizontal">
                         <Image Source="protein.png" />
 
-                        <Label Text="Protein : 50" Style="{StaticResource CommonLabelStyle}" />
+                        <Label Text="{Binding Protein, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
 
                     </StackLayout>
                     <ProgressBar Progress="0.8" ProgressColor="Red"/>
                     <Label Text="60%" TextColor="White" />
                     <StackLayout Spacing=".5" Orientation="Horizontal">
                         <Image Source="carbs.png" />
-                        <Label Text="Carbs : 300 " Style="{StaticResource CommonLabelStyle}" />
+                        <Label Text="{Binding Carbs, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
                     </StackLayout>
                     <ProgressBar Progress="0.9" ProgressColor="SaddleBrown"/>
                     <Label Text="60%" TextColor="White" />
                     <StackLayout Spacing=".5" Orientation="Horizontal">
                         <Image Source="fat.png" />
-                        <Label Text="Fat : 10 " Style="{StaticResource CommonLabelStyle}" />
+                        <Label Text="{Binding Fat, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
                     </StackLayout>
                     <ProgressBar Progress="0.8" ProgressColor="Yellow" />
                     <Label Text="60%" TextColor="White" />
                     <StackLayout Spacing=".5" Orientation="Horizontal">
                         <Image Source="fibre.png" />
-                        <Label Text="Fibre 30" Style="{StaticResource CommonLabelStyle}" />
+                        <Label Text="{Binding Fiber, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
                     </StackLayout>
                     <ProgressBar Progress="1" ProgressColor="Khaki" />
                     <Label Text="100%" TextColor="White" />
                     <StackLayout Spacing=".5" Orientation="Horizontal">
                         <Image Source="sugars.png" />
 
-                        <Label Text="Sugar  20g" Style="{StaticResource CommonLabelStyle}" />
+                        <Label Text="{Binding Sugar, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
                     </StackLayout>
                     <ProgressBar Progress=".7" ProgressColor="pink" HorizontalOptions="FillAndExpand" />
                     <Label Text="60%" TextColor="White" />
@@ -83,33 +83,35 @@
                     <StackLayout>
                         <StackLayout Spacing=".5" Orientation="Horizontal">
                             <Image Source="water.png" />
-                            <Label Text="4.5/5L" Style="{StaticResource CommonLabelStyle}" />
+                            <Label  Text="{Binding Water, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
                         </StackLayout>
 
                         <ProgressBar Progress=".9" ProgressColor="LightBlue"   HorizontalOptions="FillAndExpand"
                                      
                   />
-                        <Button Text="+250ml" Clicked="waterAdded" Style="{StaticResource CommonButtonStyle}" TextColor="White" BackgroundColor="{StaticResource Blackest}" HorizontalOptions="Start"></Button>
+                        <Button Text="+250ml" Command="{Binding addWater}" Style="{StaticResource CommonButtonStyle}" TextColor="White" BackgroundColor="{StaticResource Blackest}" HorizontalOptions="Start"></Button>
 
                     </StackLayout>
                 </StackLayout>
             </Frame>
 
-            <Frame Style="{StaticResource CommonFrameStyle} " >
-                <StackLayout>
+          
+             
                     <StackLayout Spacing=".5" Orientation="Horizontal">
                         <Image Source="goals.png" />
-                        <Label Text="Set goals" Style="{StaticResource CommonLabelStyle}" />
-                    </StackLayout>
+                <Button Text="Set Goals" Style="{StaticResource CommonButtonStyle}" BackgroundColor="{StaticResource light-black}"  TextColor="White"  Margin="10" HorizontalOptions="Start" Clicked="Button_Clicked"/>
+                    <Button Text="My Info" Style="{StaticResource CommonButtonStyle}" TextColor="White" BackgroundColor="{StaticResource light-black}" Margin="10" HorizontalOptions="EndAndExpand" Clicked="myInfoTapped"/>
+            
 
 
                 </StackLayout>
-            </Frame>
-            <HorizontalStackLayout>
-                
-            </HorizontalStackLayout>
-            <Button Text="My Info" Style="{StaticResource CommonButtonStyle}" TextColor="White" BackgroundColor="{StaticResource light-black}" Margin="10" HorizontalOptions="End" Clicked="myInfoTapped">
-                    </Button>
+            
+         
+             
+              
+
+        
+                   
 
 
           
@@ -119,24 +121,5 @@
    
 
     </ScrollView>
-    <ContentPage.MenuBarItems>
-        <MenuBarItem Text="File">
-            <MenuFlyoutItem Text="Exit" Command="{Binding ExitCommand}" />
-        </MenuBarItem>
-        <MenuBarItem Text="Locations">
-            <MenuFlyoutSubItem Text="Change Location">
-                <MenuFlyoutItem Text="Redmond, USA" Command="{Binding ChangeLocationCommand}" CommandParameter="Redmond" />
-                <MenuFlyoutItem Text="London, UK" Command="{Binding ChangeLocationCommand}" CommandParameter="London" />
-                <MenuFlyoutItem Text="Berlin, DE" Command="{Binding ChangeLocationCommand}" CommandParameter="Berlin"/>
-            </MenuFlyoutSubItem>
-            <MenuFlyoutSeparator />
-            <MenuFlyoutItem Text="Add Location" Command="{Binding AddLocationCommand}" />
-            <MenuFlyoutItem Text="Edit Location" Command="{Binding EditLocationCommand}" />
-            <MenuFlyoutItem Text="Remove Location" Command="{Binding RemoveLocationCommand}" />
-        </MenuBarItem>
-        <MenuBarItem Text="View">
-            <MenuFlyoutItem Text="Refresh" Command="{Binding RefreshCommand}" />
-            <MenuFlyoutItem Text="Change Theme" Command="{Binding ChangeThemeCommand}" />
-        </MenuBarItem>
-    </ContentPage.MenuBarItems>
+ 
 </ContentPage>

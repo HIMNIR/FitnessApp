@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-29T20:20:55.191</Modified>
+      <Modified>2024-01-02T05:26:29.431</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-29T20:20:54.932</Modified>
+      <Modified>2024-01-02T05:26:29.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Fitnessapp.runtimeconfig.json">
       <PackagePath>Fitnessapp.runtimeconfig.json</PackagePath>
-      <Modified>2023-12-29T05:29:06.626</Modified>
+      <Modified>2023-12-31T22:02:55.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Fitnessapp.dll">
       <PackagePath>Fitnessapp.dll</PackagePath>
-      <Modified>2023-12-29T20:20:53.090</Modified>
+      <Modified>2024-01-02T05:26:29.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Fitnessapp.exe</PackagePath>
-      <Modified>2023-12-29T20:20:53.176</Modified>
+      <Modified>2024-01-02T05:26:29.010</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -396,7 +396,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Fitnessapp.deps.json">
       <PackagePath>Fitnessapp.deps.json</PackagePath>
-      <Modified>2023-12-29T20:20:54.520</Modified>
+      <Modified>2024-01-02T01:53:01.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -405,6 +405,10 @@
     <AppxPackagedFile Include="C:\Users\utsav\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-10-16T19:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\utsav\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2023-10-24T20:16:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
