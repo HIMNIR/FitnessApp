@@ -18,23 +18,35 @@ build_metadata.AdditionalFiles.ManifestResourceName = Fitnessapp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/utsav/FitnessApp/Fitnessapp/Fitnessapp/AppShell.xaml]
+[C:/Users/utsav/FitnessApp/Fitnessapp/Fitnessapp/Pages/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Fitnessapp.AppShell.xaml
-build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
-build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Fitnessapp.Pages.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AppShell.xaml
 
-[C:/Users/utsav/FitnessApp/Fitnessapp/Fitnessapp/Goals.xaml]
+[C:/Users/utsav/FitnessApp/Fitnessapp/Fitnessapp/Pages/Goals.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Fitnessapp.Goals.xaml
-build_metadata.AdditionalFiles.TargetPath = Goals.xaml
-build_metadata.AdditionalFiles.RelativePath = Goals.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Fitnessapp.Pages.Goals.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Goals.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Goals.xaml
 
-[C:/Users/utsav/FitnessApp/Fitnessapp/Fitnessapp/MainPage.xaml]
+[C:/Users/utsav/FitnessApp/Fitnessapp/Fitnessapp/Pages/ListViewClass.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Fitnessapp.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Fitnessapp.Pages.ListViewClass.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ListViewClass.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ListViewClass.xaml
+
+[C:/Users/utsav/FitnessApp/Fitnessapp/Fitnessapp/Pages/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Fitnessapp.Pages.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainPage.xaml
+
+[C:/Users/utsav/FitnessApp/Fitnessapp/Fitnessapp/Pages/userInfo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Fitnessapp.Pages.userInfo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\userInfo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\userInfo.xaml
 
 [C:/Users/utsav/FitnessApp/Fitnessapp/Fitnessapp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -53,9 +65,3 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Fitnessapp.Resources.Styles.Theme.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Theme.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Theme.xaml
-
-[C:/Users/utsav/FitnessApp/Fitnessapp/Fitnessapp/userInfo.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Fitnessapp.userInfo.xaml
-build_metadata.AdditionalFiles.TargetPath = userInfo.xaml
-build_metadata.AdditionalFiles.RelativePath = userInfo.xaml

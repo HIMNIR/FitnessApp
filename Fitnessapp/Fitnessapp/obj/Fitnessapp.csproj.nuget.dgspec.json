@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
+            "Csv": {
+              "target": "Package",
+              "version": "[2.0.93, )"
+            },
             "Microsoft.Extensions.Configuration.UserSecrets": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -86,6 +90,14 @@
               "target": "Package",
               "version": "[8.0.0, )",
               "autoReferenced": true
+            },
+            "Plugin.DeviceSensors": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.1, )"
             }
           },
           "imports": [
@@ -116,6 +128,10 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
+            "Csv": {
+              "target": "Package",
+              "version": "[2.0.93, )"
+            },
             "Microsoft.Extensions.Configuration.UserSecrets": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -137,6 +153,14 @@
               "target": "Package",
               "version": "[8.0.0, )",
               "autoReferenced": true
+            },
+            "Plugin.DeviceSensors": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.1, )"
             }
           },
           "imports": [
@@ -167,6 +191,10 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
+            "Csv": {
+              "target": "Package",
+              "version": "[2.0.93, )"
+            },
             "Microsoft.Extensions.Configuration.UserSecrets": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -188,6 +216,14 @@
               "target": "Package",
               "version": "[8.0.0, )",
               "autoReferenced": true
+            },
+            "Plugin.DeviceSensors": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.1, )"
             }
           },
           "imports": [
@@ -219,6 +255,10 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
+            "Csv": {
+              "target": "Package",
+              "version": "[2.0.93, )"
+            },
             "Microsoft.Extensions.Configuration.UserSecrets": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -234,6 +274,14 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "Plugin.DeviceSensors": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.1, )"
             }
           },
           "imports": [
@@ -277,7 +325,7 @@
         "android-x86": {
           "#import": []
         },
-        "ios-arm64": {
+        "iossimulator-x64": {
           "#import": []
         },
         "maccatalyst-x64": {

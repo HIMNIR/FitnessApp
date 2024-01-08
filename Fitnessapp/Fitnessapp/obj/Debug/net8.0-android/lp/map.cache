@@ -6,6 +6,7 @@ Microsoft.Maui.Controls.Xaml.dll
 Microsoft.Maui.dll
 Microsoft.Maui.Essentials.dll
 Microsoft.Maui.Graphics.dll
+Plugin.DeviceSensors.dll
 Xamarin.Android.Glide.Annotations.dll
 Xamarin.Android.Glide.DiskLruCache.dll
 Xamarin.Android.Glide.dll
@@ -77,6 +78,7 @@ Xamarin.AndroidX.ViewPager.dll
 Xamarin.AndroidX.ViewPager2.dll
 Xamarin.AndroidX.Window.dll
 Xamarin.AndroidX.Window.Extensions.Core.Core.dll
+Xamarin.Essentials.dll
 Xamarin.Google.Android.Material.dll
 Xamarin.Google.Crypto.Tink.Android.dll
 Xamarin.Google.ErrorProne.Annotations.dll
@@ -129,6 +131,7 @@ androidx.appcompat.appcompat.aar
 androidx.constraintlayout.constraintlayout.aar
 androidx.cardview.cardview.aar
 com.google.android.material.material.aar
+androidx.browser.browser.aar
 androidx.window.extensions.core.core.aar
 androidx.window.window.aar
 androidx.swiperefreshlayout.swiperefreshlayout.aar
@@ -146,7 +149,6 @@ androidx.fragment.fragment-ktx.aar
 androidx.navigation.navigation-fragment.aar
 androidx.lifecycle.lifecycle-livedata.aar
 androidx.exifinterface.exifinterface.aar
-androidx.browser.browser.aar
 gifdecoder.aar
 glide.aar
 GoogleGson.aar

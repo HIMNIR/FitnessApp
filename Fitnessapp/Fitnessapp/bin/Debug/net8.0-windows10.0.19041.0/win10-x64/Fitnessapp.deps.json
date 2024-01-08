@@ -10,10 +10,13 @@
       "Fitnessapp/1.0": {
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.2.2",
+          "Csv": "2.0.93",
           "Microsoft.Extensions.Configuration.UserSecrets": "6.0.1",
           "Microsoft.Extensions.Logging.Debug": "8.0.0",
           "Microsoft.Maui.Controls": "8.0.3",
           "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "Plugin.DeviceSensors": "1.0.0",
+          "Xamarin.Essentials": "1.8.1",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.31"
         },
         "runtime": {
@@ -37,6 +40,14 @@
           "lib/net6.0/CommunityToolkit.Mvvm.dll": {
             "assemblyVersion": "8.2.0.0",
             "fileVersion": "8.2.2.1"
+          }
+        }
+      },
+      "Csv/2.0.93": {
+        "runtime": {
+          "lib/netcoreapp3.1/Csv.dll": {
+            "assemblyVersion": "2.0.93.0",
+            "fileVersion": "2.0.93.0"
           }
         }
       },
@@ -523,6 +534,15 @@
           }
         }
       },
+      "Plugin.DeviceSensors/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.DeviceSensors.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {},
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Text.Encodings.Web/6.0.0": {
         "dependencies": {
@@ -533,6 +553,17 @@
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "System.Text.Encodings.Web": "6.0.0"
+        }
+      },
+      "Xamarin.Essentials/1.8.1": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -554,6 +585,13 @@
       "sha512": "sha512-r0g0k9tGYdrnz8R7T3x5UiokDffeevzK/2P/9SBL6fqLgN8B157MIi/bVUWI1KAz6ZorZrK9AdABCWUeXZZsvA==",
       "path": "communitytoolkit.mvvm/8.2.2",
       "hashPath": "communitytoolkit.mvvm.8.2.2.nupkg.sha512"
+    },
+    "Csv/2.0.93": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3KD+VCDn1yKZFrGgi7KS8BxqfpFbX3Pfz+jqHq6a1A/V9HvSmn3VazlSLdOu6Whiopso3lcUhgL4qkalBgIz1Q==",
+      "path": "csv/2.0.93",
+      "hashPath": "csv.2.0.93.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/8.0.0": {
       "type": "package",
@@ -751,6 +789,20 @@
       "path": "microsoft.windowsappsdk/1.3.230724000",
       "hashPath": "microsoft.windowsappsdk.1.3.230724000.nupkg.sha512"
     },
+    "Plugin.DeviceSensors/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mdE+jw9s3N2/nzO3t5hlpzZLIX0ebo0BemWvwAZ8IxtBaru82sPncIXd5wd/TdW5QeH76jeC6o3tbLCjPDpASg==",
+      "path": "plugin.devicesensors/1.0.0",
+      "hashPath": "plugin.devicesensors.1.0.0.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -771,6 +823,13 @@
       "sha512": "sha512-zaJsHfESQvJ11vbXnNlkrR46IaMULk/gHxYsJphzSF+07kTjPHv+Oc14w6QEOfo3Q4hqLJgStUaYB9DBl0TmWg==",
       "path": "system.text.json/6.0.0",
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IzfRGrCrRuytgdQU+Im17Cepib6qUyLj1xfMjn+sDPTfmhmcZotsQCm5Dblm4Vxo9/SGFTdm1OgJUKWzu+dfjw==",
+      "path": "xamarin.essentials/1.8.1",
+      "hashPath": "xamarin.essentials.1.8.1.nupkg.sha512"
     }
   }
 }

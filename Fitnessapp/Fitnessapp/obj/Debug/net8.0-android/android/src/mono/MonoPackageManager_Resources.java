@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "Fitnessapp.dll" comes first in this list. */
 		"Fitnessapp.dll",
 		"CommunityToolkit.Mvvm.dll",
+		"Csv.dll",
 		"GoogleGson.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",
@@ -26,6 +27,7 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.dll",
 		"Microsoft.Maui.Essentials.dll",
 		"Microsoft.Maui.Graphics.dll",
+		"Plugin.DeviceSensors.dll",
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
 		"Xamarin.Android.Glide.DiskLruCache.dll",
@@ -97,6 +99,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.ViewPager2.dll",
 		"Xamarin.AndroidX.Window.dll",
 		"Xamarin.AndroidX.Window.Extensions.Core.Core.dll",
+		"Xamarin.Essentials.dll",
 		"Xamarin.Google.Android.Material.dll",
 		"Jsr305Binding.dll",
 		"Xamarin.Google.Crypto.Tink.Android.dll",

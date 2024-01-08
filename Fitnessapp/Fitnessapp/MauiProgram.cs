@@ -1,25 +1,24 @@
-﻿using Microsoft.Extensions.Logging;
+﻿
 
-namespace Fitnessapp
+namespace Fitnessapp;
+
+
+public static class MauiProgram
 {
-    public static class MauiProgram
+    public static MauiApp CreateMauiApp()
     {
-        public static MauiApp CreateMauiApp()
-        {
-            var builder = MauiApp.CreateBuilder();
-            builder
-                .UseMauiApp<App>()
-                .ConfigureFonts(fonts =>
-                {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                });
+        var builder = MauiApp
+            .CreateBuilder()
+            .UseMauiApp<App>()
+            // <-- add this line (this is important) this wires shiny lifecycle through maui
+            .ConfigureFonts(fonts =>
+            {
+                fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+            });
 
-#if DEBUG
-    		builder.Logging.AddDebug();
-#endif
+        // now wire up all of the shiny stuff and any services you need
 
-            return builder.Build();
-        }
+        return builder.Build();
     }
 }

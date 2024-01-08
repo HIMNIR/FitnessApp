@@ -387,3 +387,6 @@ C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.190
 C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\walking.scale-100.png
 C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\goals.scale-100.png
 C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
+C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Xamarin.Essentials.dll
+C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Plugin.DeviceSensors.dll
+C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Csv.dll

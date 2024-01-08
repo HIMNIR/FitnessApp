@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Background="{StaticResource Blackest}" xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fitnessapp.UserInfo"
+             xmlns:viewmodel ="clr-namespace:Fitnessapp.ViewModel"
+              x:DataType="viewmodel:UserInfoViewModel" >
+
+<ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="User Information" FontSize="Title" FontFamily="LobsterTwo-Regular" TextColor="White"  />
+            <Frame Style="{StaticResource CommonFrameStyle}">
+                <StackLayout Spacing="2">
+                    <Label Text="Name" Style="{StaticResource CommonLabelStyle}" />
+                    <Entry Placeholder="Enter your name" Style="{StaticResource CommonEntryStyle}" TextColor="White" Text="{Binding UserName}" />
+                </StackLayout>
+            </Frame>
+
+            <Frame Style="{StaticResource CommonFrameStyle}">
+                <StackLayout Spacing="2">
+                    <Label Text="Age" Style="{StaticResource CommonLabelStyle}" />
+                    <Entry Placeholder="Enter your age" Keyboard="Numeric" Style="{StaticResource CommonEntryStyle}" TextColor="White" Text="{Binding Age}" />
+                </StackLayout>
+            </Frame>
+
+            <Frame Style="{StaticResource CommonFrameStyle}">
+                <StackLayout Spacing="2">
+                    <Label Text="Height (cm)" Style="{StaticResource CommonLabelStyle}" />
+                    <Entry Placeholder="Enter your height" Keyboard="Numeric" Style="{StaticResource CommonEntryStyle}" TextColor="White" Text="{Binding getHeight}" />
+                </StackLayout>
+            </Frame>
+
+            <Frame Style="{StaticResource CommonFrameStyle}">
+                <StackLayout Spacing="2">
+                    <Label Text="Weight (kg)" Style="{StaticResource CommonLabelStyle}" />
+                    <Entry Placeholder="Enter your weight" Keyboard="Numeric" Style="{StaticResource CommonEntryStyle}" TextColor="White" Text="{Binding Weight}" />
+                </StackLayout>
+            </Frame>
+
+            <Frame Style="{StaticResource CommonFrameStyle}">
+                <StackLayout Spacing="2">
+                    <Label Text="Gender" Style="{StaticResource CommonLabelStyle}" />
+                    <Picker SelectedItem="{Binding Gender}" Title="Select your gender" Style="{StaticResource CommonPickerStyle}" TextColor="White">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Male</x:String>
+                                <x:String>Female</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+            </Frame>
+
+            <Frame Style="{StaticResource CommonFrameStyle}">
+                <StackLayout Spacing="2">
+                   
+                    <Label Text="{Binding Bmi, StringFormat='Your BMI: {0:F2}'}" Style="{StaticResource CommonLabelStyle}" TextColor="White"/>
+                </StackLayout>
+            </Frame>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Save" HorizontalOptions="Start" Style="{StaticResource CommonButtonStyle}" TextColor="White" BackgroundColor="{StaticResource light-black}" Clicked="Saved" Command="{Binding SaveCommand}"/>
+                <Button Text="Back to main" HorizontalOptions="EndAndExpand"  Style="{StaticResource CommonButtonStyle}" TextColor="White" BackgroundColor="{StaticResource light-black}" Clicked="Back_Button_Clicked"/>
+            </StackLayout>
+           
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

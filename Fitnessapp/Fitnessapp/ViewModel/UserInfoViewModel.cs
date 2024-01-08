@@ -2,6 +2,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using System.IO;
 using System.Text.Json;
 using Microsoft.Maui.Controls;
+using Fitnessapp.Model;
 
 namespace Fitnessapp.ViewModel
 {
@@ -135,7 +136,10 @@ namespace Fitnessapp.ViewModel
          
             savetoJSON(Path.Combine(FileSystem.AppDataDirectory, "userInfo.json"));
             LoadFromJSON(Path.Combine(FileSystem.AppDataDirectory, "userInfo.json"));
+         
             
         }
+
+     
     }
 }
