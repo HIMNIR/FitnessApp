@@ -3,21 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Fitnessapp.Pages.ListViewClass"
              Title="ListViewClass"
-             BackgroundColor="{StaticResource Blackest}">
+             xmlns:viewmodel ="clr-namespace:Fitnessapp.ViewModel"
+             x:DataType="viewmodel:ListViewModel">
 
-    <ListView>
-       
+    <ContentPage.BindingContext>
+        <viewmodel:ListViewModel/>
+    </ContentPage.BindingContext>
+
+    <ListView x:Name="listView" ItemsSource="{Binding Items}">
+
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
                     <StackLayout Background="{StaticResource light-black}" >
-                        <Label  Margin="5" Text="{Binding .}" Style="{StaticResource CommonLabelStyle}"  HorizontalOptions="Center"></Label>
+                        <Label  Margin="5" Text="{Binding Name}" Style="{StaticResource CommonLabelStyle}"  HorizontalOptions="Center"></Label>
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>
-        
+
     </ListView>
-    
-    
+
 </ContentPage>
