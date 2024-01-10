@@ -1,27 +1,47 @@
-﻿
-using CommunityToolkit.Mvvm.ComponentModel;
-
-using Csv;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using Fitnessapp.Model;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
+using System.Collections.Generic;
+using System.IO;
+using Csv;
+
 namespace Fitnessapp.ViewModel
 {
     public class ListViewModel : ObservableObject
     {
+        public Command AddFood {  get; set; }
+
+        public Command info { get; set; }
+        public string labelText { get; set; }
+        public bool visibility {  get; set; }
         public string Name {  get; set; }
-        public ObservableCollection<List<CollectionViewClass>> Items { get; } = new ObservableCollection<List<CollectionViewClass>>();
+        public string measure { get; set; }
+        public int grams {  get; set; }
+        public int calories {  get; set; }
+        public int protein {  get; set; }
+
+        public int fat { get; set; }
+        public int Sat_Fat {  get; set; }
+        public int Fiber {  get; set; }
+        public int Carbs { get; set; }
+        public int category {  get; set; }
+
+
+        public List<CollectionViewClass> Items { get; set; }
+
+    
+
         public ListViewModel()
         {
-            var tempList = new List<CollectionViewClass>();
+
+
+
+            Items = new List<CollectionViewClass>();
             var path = Path.Combine(FileSystem.Current.AppDataDirectory, "nutritionDataSet.csv");
             var csv = File.ReadAllText(path);
-           
-            int count =0;
-        
-                foreach (var item in CsvReader.ReadFromText(csv))
-                {
-               var a =  new CollectionViewClass()
+
+            foreach (var item in CsvReader.ReadFromText(csv))
+            {
+                CollectionViewClass a = new CollectionViewClass()
                 {
                     Name = item[0],
                     measure = item[1],
@@ -33,18 +53,10 @@ namespace Fitnessapp.ViewModel
                     Fiber = TryParseInt(item[7]),
                     Carbs = TryParseInt(item[8]),
                     category = item[9]
-
-
                 };
-                tempList.Add(a);
-                Items.Insert(count, tempList);
-                count++;
-                }
-            
-            
 
-            
-
+                Items.Add(a);
+            }
         }
 
         public int TryParseInt(string val)
@@ -52,16 +64,19 @@ namespace Fitnessapp.ViewModel
             try
             {
                 return int.Parse(val);
-            }catch (Exception e)
+            }
+            catch (Exception e)
             {
+                Console.WriteLine(e.Message);
                 return 0;
             }
-
-            
         }
 
 
+        public void executeCommand()
+        {
+
+        }
+        
     }
-
-
 }
