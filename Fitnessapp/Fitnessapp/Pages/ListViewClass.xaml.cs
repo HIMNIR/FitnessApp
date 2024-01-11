@@ -35,15 +35,15 @@ namespace Fitnessapp.Pages
 
 
         }
-        private async void listView_ItemTapped(object sender, ItemTappedEventArgs e)
+        private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             BindingContext = lvModel;
             if (e.Item is CollectionViewClass selectedName)
             {
-              DisplayDetails(selectedName);
+                DisplayDetails(selectedName);
             }
         }
 
-        
+
     }
 }

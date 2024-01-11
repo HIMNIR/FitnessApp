@@ -3,27 +3,28 @@ using Fitnessapp.Model;
 using System.Collections.Generic;
 using System.IO;
 using Csv;
+using System.Diagnostics;
 
 namespace Fitnessapp.ViewModel
 {
     public class ListViewModel : ObservableObject
     {
-        public Command AddFood {  get; set; }
+        public Command? AddFood {  get; set; }
 
-        public Command info { get; set; }
-        public string labelText { get; set; }
-        public bool visibility {  get; set; }
-        public string Name {  get; set; }
-        public string measure { get; set; }
-        public int grams {  get; set; }
-        public int calories {  get; set; }
-        public int protein {  get; set; }
+        public Command? info { get; set; }
+        public string? labelText { get; set; }
+        public bool? visibility {  get; set; }
+        public string? Name {  get; set; }
+        public string? measure { get; set; }
+        public int? grams {  get; set; }
+        public int? calories {  get; set; }
+        public int? protein {  get; set; }
 
-        public int fat { get; set; }
-        public int Sat_Fat {  get; set; }
-        public int Fiber {  get; set; }
-        public int Carbs { get; set; }
-        public int category {  get; set; }
+        public int? fat { get; set; }
+        public int? Sat_Fat {  get; set; }
+        public int? Fiber {  get; set; }
+        public int? Carbs { get; set; }
+        public int? category {  get; set; }
 
 
         public List<CollectionViewClass> Items { get; set; }
@@ -33,15 +34,16 @@ namespace Fitnessapp.ViewModel
         public ListViewModel()
         {
 
+           
+                Items = new List<CollectionViewClass>();
+                var path = Path.Combine(FileSystem.Current.AppDataDirectory, "nutritionDataSet.csv");
+                var csv = File.ReadAllText(path);
 
-
-            Items = new List<CollectionViewClass>();
-            var path = Path.Combine(FileSystem.Current.AppDataDirectory, "nutritionDataSet.csv");
-            var csv = File.ReadAllText(path);
+            Debug.WriteLine("bofa");
 
             foreach (var item in CsvReader.ReadFromText(csv))
             {
-                CollectionViewClass a = new CollectionViewClass()
+                CollectionViewClass a = new()
                 {
                     Name = item[0],
                     measure = item[1],
@@ -61,6 +63,7 @@ namespace Fitnessapp.ViewModel
 
         public int TryParseInt(string val)
         {
+            Debug.WriteLine("bofa container");
             try
             {
                 return int.Parse(val);
@@ -73,7 +76,7 @@ namespace Fitnessapp.ViewModel
         }
 
 
-        public void executeCommand()
+        public void ExecuteCommand()
         {
 
         }

@@ -6,9 +6,6 @@
              xmlns:viewmodel="clr-namespace:Fitnessapp.ViewModel"
              x:DataType="viewmodel:ListViewModel">
 
-    <ContentPage.BindingContext>
-        <viewmodel:ListViewModel />
-    </ContentPage.BindingContext>
 
     <StackLayout>
 
@@ -16,7 +13,7 @@
 
         <Label Text="Food Names" Background="{StaticResource light-black}"  Style="{StaticResource CommonLabelStyle}" FontSize="Title" FontFamily="LobsterTwo-Regular" HorizontalOptions="FillAndExpand" TextColor="White" />
 
-        <ListView x:Name="listView" ItemsSource="{Binding Items}"  ItemTapped="listView_ItemTapped">
+        <ListView x:Name="listView" ItemsSource="{Binding Items}"  ItemTapped="ListView_ItemTapped">
 
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -24,18 +21,18 @@
                         <StackLayout Background="{StaticResource light-black}">
                             <StackLayout Orientation="Horizontal" >
                                 <Label Margin="10" Text="{Binding Name, StringFormat='{0}ℹ️'}" Style="{StaticResource CommonLabelStyle}" HorizontalOptions="FillAndExpand"></Label>
-                                
+
                                 <!--<Label Margin="10" Text="{Binding measure}" Style="{StaticResource CommonLabelStyle}" HorizontalOptions="CenterAndExpand"></Label>
                                 <Label Margin="10" Text="{Binding grams}" Style="{StaticResource CommonLabelStyle}" HorizontalOptions="CenterAndExpand"></Label>
                                 <Label Margin="10" Text="{Binding calories}" Style="{StaticResource CommonLabelStyle}" HorizontalOptions="CenterAndExpand"></Label>
-                                <Label Margin="10" Text="{Binding protein}" Style="{StaticResource CommonLabelStyle}" HorizontalOptions="CenterAndExpand"></Label>
+                                <Label Margin="10" Text="{Binding protein}" Style="{StaticResource CommonLabelStyle}" HorizontalOptions="CenterAndExpand"></Label>  
                                 <Label Margin="10" Text="{Binding fat}" Style="{StaticResource CommonLabelStyle}" HorizontalOptions="CenterAndExpand"></Label>
                                 <Label Margin="5" Text="{Binding Sat_Fat}" Style="{StaticResource CommonLabelStyle}" HorizontalOptions="CenterAndExpand"></Label>
                                 <Label Margin="5" Text="{Binding Fiber}" Style="{StaticResource CommonLabelStyle}" HorizontalOptions="CenterAndExpand"></Label>
                                 <Label Margin="5" Text="{Binding Carbs}" Style="{StaticResource CommonLabelStyle}" HorizontalOptions="CenterAndExpand"></Label>
                                 <Label Margin="5" Text="{Binding category}" Style="{StaticResource CommonLabelStyle}" HorizontalOptions="CenterAndExpand"></Label>-->
-                              
-                                </StackLayout>
+
+                            </StackLayout>
                             <Button Text="+Add" Command="{Binding AddFood}" Style="{StaticResource CommonButtonStyle}" TextColor="White" BackgroundColor="{StaticResource Blackest}" HorizontalOptions="Start"></Button>
 
                         </StackLayout>
@@ -44,10 +41,10 @@
             </ListView.ItemTemplate>
 
 
-      
+
         </ListView>
 
-        
+
     </StackLayout>
 
 </ContentPage>
