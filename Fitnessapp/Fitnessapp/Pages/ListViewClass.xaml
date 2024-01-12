@@ -6,17 +6,13 @@
              xmlns:viewmodel="clr-namespace:Fitnessapp.ViewModel"
              x:DataType="viewmodel:ListViewModel">
 
-    <ContentPage.BindingContext>
-        <viewmodel:ListViewModel />
-    </ContentPage.BindingContext>
-
     <StackLayout>
 
 
 
         <Label Text="Food Names" Background="{StaticResource light-black}"  Style="{StaticResource CommonLabelStyle}" FontSize="Title" FontFamily="LobsterTwo-Regular" HorizontalOptions="FillAndExpand" TextColor="White" />
 
-        <ListView x:Name="listView" ItemsSource="{Binding Items}"  ItemTapped="listView_ItemTapped">
+        <ListView x:Name="listView"  ItemsSource="{Binding Items}"  ItemTapped="listView_ItemTapped">
 
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -36,8 +32,7 @@
                                 <Label Margin="5" Text="{Binding category}" Style="{StaticResource CommonLabelStyle}" HorizontalOptions="CenterAndExpand"></Label>-->
                               
                                 </StackLayout>
-                            <Button Text="+Add" Command="{Binding AddFood}" Style="{StaticResource CommonButtonStyle}" TextColor="White" BackgroundColor="{StaticResource Blackest}" HorizontalOptions="Start"></Button>
-
+                           
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

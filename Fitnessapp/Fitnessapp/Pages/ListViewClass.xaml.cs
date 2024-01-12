@@ -8,9 +8,26 @@ using Xamarin.Essentials;
 
 namespace Fitnessapp.Pages
 {
+
+
     public partial class ListViewClass : ContentPage
     {
+        private double tempCal;
+        private double tempPro;
+        private double tempCarbs;
+        private double tempFats;
+        private double tempFibers;
+        private double tempSugar;
+
         ListViewModel lvModel;
+
+        public double TempCal { get => tempCal; set => tempCal = value; }
+        public double TempPro { get => tempPro; set => tempPro = value; }
+        public double TempCarbs { get => tempCarbs; set => tempCarbs = value; }
+        public double TempFats { get => tempFats; set => tempFats = value; }
+        public double TempFibers { get => tempFibers; set => tempFibers = value; }
+        public double TempSugar { get => tempSugar; set => tempSugar = value; }
+
         public ListViewClass()
         {
             InitializeComponent();
@@ -24,6 +41,7 @@ namespace Fitnessapp.Pages
             string message = $"Name: {selectedName.Name}\n" +
                                    $"Measure: {selectedName.measure}\n" +
                                    $"Grams: {selectedName.grams}\n" +
+                                   $"Protein: {selectedName.protein}\n" +
                                    $"Calories: {selectedName.calories}\n" +
                                    $"Fat: {selectedName.fat}\n" +
                                    $"Sat Fat: {selectedName.Sat_Fat}\n" +
@@ -31,19 +49,41 @@ namespace Fitnessapp.Pages
                                    $"Carbs: {selectedName.Carbs}\n" +
                                    $"Category: {selectedName.category}";
 
-            await DisplayAlert("Details", message, "OK");
+            bool answer = await DisplayAlert("Details: ", message, "Add", "Cancel");
+
+            if (answer)
+            {
+                MessagingCenter.Send(this, "FoodItemAdded", new UserTempData
+                {
+                    AddedCalories = selectedName.calories,
+                    AddedProtein = selectedName.protein,
+                    AddedCarbs = selectedName.Carbs,
+                    AddedFats = selectedName.fat,
+                    AddedFibers = selectedName.Fiber,
+                    AddedSugar = selectedName.Sat_Fat
+                });
+
+
+
+            }
 
 
         }
-        private async void listView_ItemTapped(object sender, ItemTappedEventArgs e)
+
+       
+
+
+
+
+        private void listView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            BindingContext = lvModel;
             if (e.Item is CollectionViewClass selectedName)
             {
-              DisplayDetails(selectedName);
+                DisplayDetails(selectedName);
             }
         }
 
-        
+
+
     }
 }

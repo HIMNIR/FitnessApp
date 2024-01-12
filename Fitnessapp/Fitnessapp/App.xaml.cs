@@ -13,11 +13,12 @@ namespace Fitnessapp
             InitializeComponent();
 
 
-            MainPage = new ListViewClass();
+            MainPage = new AppShell();
         }
-       
 
-       
+     
+
+
     }
 }
 

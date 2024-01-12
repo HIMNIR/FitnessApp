@@ -4,6 +4,7 @@ using System.Text.Json;
 using Microsoft.Maui.Controls;
 using Fitnessapp.Model;
 
+
 namespace Fitnessapp.ViewModel
 {
     public class UserInfoViewModel : ObservableObject
@@ -72,6 +73,7 @@ namespace Fitnessapp.ViewModel
             get => userBMI;
             set => SetProperty(ref userBMI, value);
         }
+  
 
         public UserInfoViewModel()
         {

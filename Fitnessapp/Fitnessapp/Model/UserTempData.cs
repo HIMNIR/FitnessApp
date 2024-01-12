@@ -8,15 +8,11 @@ namespace Fitnessapp.Model
 {
     public  class UserTempData
     {
-        public double Tempsteps { get; set; }
-        public double Tempcalories { get; set; }
-        public double Tempprotein { get; set; }
-        public double Tempcarbs { get; set; }
-        public double Tempfiber { get; set; }
-        public double Tempsugar { get; set; }
-
-        public double Tempfat { get; set; }
-
-        public double Tempwater { get; set; }
+        public double AddedCalories { get; set; }
+        public double AddedProtein { get; set; }
+        public double AddedCarbs { get; set; }
+        public double AddedFats { get; set; }
+        public double AddedFibers { get; set; }
+        public double AddedSugar { get; set; }
     }
 }

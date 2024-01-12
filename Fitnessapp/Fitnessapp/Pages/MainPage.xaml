@@ -26,20 +26,21 @@
                         <Label Text="{Binding DisplaySteps, StringFormat='Bofa {0} {1}'}"  Style="{StaticResource CommonLabelStyle}" />
 
                     </StackLayout>
-                <ProgressBar Progress="0.6" />
-                <Label Text="60%" Style="{StaticResource CommonLabelStyle}" />
-                    </StackLayout>
+               
+                    <ProgressBar Progress="{Binding StepsProgress}" ProgressColor="Blue"/>
+                    <Label Text="{Binding StepsPercentage, StringFormat='{0:F1}%'}" Style="{StaticResource CommonLabelStyle}" />
+                </StackLayout>
             </Frame>
-
+    
             <Frame Style="{StaticResource CommonFrameStyle}">
                 <StackLayout Spacing="2" Orientation="Vertical">
                     <StackLayout Orientation="Horizontal">
                         <Image Source="calories.png" />
-                        <Label Text="{Binding Calories, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
+                        <Label Text="{Binding DisplayCALOS, StringFormat=' Bofa {0} {1}'}" Style="{StaticResource CommonLabelStyle}" />
 
                     </StackLayout>
-                    <ProgressBar Progress="0.6" />
-                    <Label Text="60%" Style="{StaticResource CommonLabelStyle}" />
+                    <ProgressBar Progress="{Binding CalosProgress}" ProgressColor="Purple" />
+                    <Label Text="{Binding CalosPercentage, StringFormat='{0:F1}%'}" Style="{StaticResource CommonLabelStyle}" />
                 </StackLayout>
             </Frame>
 
@@ -50,46 +51,46 @@
                     <StackLayout Spacing=".5" Orientation="Horizontal">
                         <Image Source="protein.png" />
 
-                        <Label Text="{Binding Protein, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
+                        <Label Text="{Binding DisplayPro, StringFormat='Bofa {0} {1}'}" Style="{StaticResource CommonLabelStyle}" />
 
                     </StackLayout>
-                    <ProgressBar Progress="0.8" ProgressColor="Red"/>
-                    <Label Text="60%" TextColor="White" />
+                    <ProgressBar Progress="{Binding ProProgress}" ProgressColor="Red"/>
+                    <Label Text="{Binding ProPercentage, StringFormat='{0:F1}%'}" Style="{StaticResource CommonLabelStyle}" />
+                    
                     <StackLayout Spacing=".5" Orientation="Horizontal">
                         <Image Source="carbs.png" />
-                        <Label Text="{Binding Carbs, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
+                        <Label Text="{Binding DisplayCarbs, StringFormat='Bofa {0} {1}'}" Style="{StaticResource CommonLabelStyle}" />
                     </StackLayout>
-                    <ProgressBar Progress="0.9" ProgressColor="SaddleBrown"/>
-                    <Label Text="60%" TextColor="White" />
+                    <ProgressBar Progress="{Binding CarbsProgress}" ProgressColor="DarkGreen"/>
+                    <Label Text="{Binding CarbsPercentage, StringFormat='{0:F1}%'}" Style="{StaticResource CommonLabelStyle}" />
                     <StackLayout Spacing=".5" Orientation="Horizontal">
                         <Image Source="fat.png" />
-                        <Label Text="{Binding Fat, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
+                        <Label Text="{Binding DisplayFats, StringFormat='Bofa {0} {1}'}" Style="{StaticResource CommonLabelStyle}" />
                     </StackLayout>
-                    <ProgressBar Progress="0.8" ProgressColor="Yellow" />
-                    <Label Text="60%" TextColor="White" />
+                    <ProgressBar Progress="{Binding FatsProgress}" ProgressColor="Yellow" />
+                    <Label Text="{Binding FatsPercentage, StringFormat='{0:F1}%'}" Style="{StaticResource CommonLabelStyle}" />
                     <StackLayout Spacing=".5" Orientation="Horizontal">
                         <Image Source="fibre.png" />
-                        <Label Text="{Binding Fiber, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
+                        <Label Text="{Binding DisplayFibers, StringFormat='Bofa {0} {1}'}" Style="{StaticResource CommonLabelStyle}" />
                     </StackLayout>
-                    <ProgressBar Progress="1" ProgressColor="Khaki" />
-                    <Label Text="100%" TextColor="White" />
+                    <ProgressBar Progress="{Binding FiberProgres}" ProgressColor="SaddleBrown"/>
+                    <Label Text="{Binding FiverPercentage, StringFormat='{0:F1}%'}" Style="{StaticResource CommonLabelStyle}" />
                     <StackLayout Spacing=".5" Orientation="Horizontal">
-                        <Image Source="sugars.png" />
+                        <Image Source="fat.png" />
 
-                        <Label Text="{Binding Sugar, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
+                        <Label Text="{Binding DisplaySugar, StringFormat='Bofa {0} {1}'}" Style="{StaticResource CommonLabelStyle}" />
                     </StackLayout>
-                    <ProgressBar Progress=".7" ProgressColor="pink" HorizontalOptions="FillAndExpand" />
-                    <Label Text="60%" TextColor="White" />
+                    <ProgressBar Progress="{Binding SugarProgress}" ProgressColor="Pink"/>
+                    <Label Text="{Binding SugarPercentage, StringFormat='{0:F1}%'}" Style="{StaticResource CommonLabelStyle}" />
 
                     <StackLayout>
                         <StackLayout Spacing=".5" Orientation="Horizontal">
                             <Image Source="water.png" />
-                            <Label  Text="{Binding Water, StringFormat='20 / {0}'}" Style="{StaticResource CommonLabelStyle}" />
+                            <Label  Text="{Binding DisplayWat, StringFormat='{0} {1}'}" Style="{StaticResource CommonLabelStyle}" />
                         </StackLayout>
 
-                        <ProgressBar Progress=".9" ProgressColor="LightBlue"   HorizontalOptions="FillAndExpand"
-                                     
-                  />
+                        <ProgressBar Progress="{Binding WatProgress}" ProgressColor="Aquamarine"/>
+                        
                         <Button Text="+250ml" Command="{Binding addWater}" Style="{StaticResource CommonButtonStyle}" TextColor="White" BackgroundColor="{StaticResource Blackest}" HorizontalOptions="Start"></Button>
 
                     </StackLayout>
@@ -100,8 +101,10 @@
              
                     <StackLayout Spacing=".5" Orientation="Horizontal">
                         <Image Source="goals.png" />
-                <Button Text="Set Goals" Style="{StaticResource CommonButtonStyle}" BackgroundColor="{StaticResource light-black}"  TextColor="White"  Margin="10" HorizontalOptions="Start" Clicked="Button_Clicked"/>
-                    <Button Text="My Info" Style="{StaticResource CommonButtonStyle}" TextColor="White" BackgroundColor="{StaticResource light-black}" Margin="10" HorizontalOptions="EndAndExpand" Clicked="myInfoTapped"/>
+                <Button Text="Set Goals" Style="{StaticResource CommonButtonStyle}" BackgroundColor="{StaticResource light-black}"  TextColor="White"  Margin="10" HorizontalOptions="StartAndExpand" Clicked="Button_Clicked"/>
+                <Button Text= "➕" FontSize="Medium"  Style="{StaticResource CommonButtonStyle}" BackgroundColor="{StaticResource light-black}"  TextColor="White"  Margin="10" HorizontalOptions="Center" Clicked="Add_Button"/>
+
+                <Button Text="My Info" Style="{StaticResource CommonButtonStyle}" TextColor="White" BackgroundColor="{StaticResource light-black}" Margin="10" HorizontalOptions="EndAndExpand" Clicked="myInfoTapped"/>
             
 
 
