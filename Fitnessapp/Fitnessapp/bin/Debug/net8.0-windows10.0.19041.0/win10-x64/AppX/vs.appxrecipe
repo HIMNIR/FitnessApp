@@ -30,373 +30,373 @@
     <AppXManifest Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-12T08:14:35.770</Modified>
+      <Modified>2024-01-14T03:13:08.796</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-12T08:14:35.601</Modified>
+      <Modified>2024-01-14T03:13:08.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Fitnessapp.runtimeconfig.json">
       <PackagePath>Fitnessapp.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-11T23:51:30.017</Modified>
+      <Modified>2024-01-13T18:02:06.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Fitnessapp.dll">
       <PackagePath>Fitnessapp.dll</PackagePath>
-      <Modified>2024-01-12T08:14:34.299</Modified>
+      <Modified>2024-01-14T03:13:07.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Fitnessapp.exe</PackagePath>
-      <Modified>2024-01-12T08:14:34.342</Modified>
+      <Modified>2024-01-14T03:13:07.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-01-11T23:50:51.357</Modified>
+      <Modified>2024-01-13T04:57:47.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.398</Modified>
+      <Modified>2024-01-13T04:57:51.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.399</Modified>
+      <Modified>2024-01-13T04:57:51.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.399</Modified>
+      <Modified>2024-01-13T04:57:51.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.399</Modified>
+      <Modified>2024-01-13T04:57:51.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.400</Modified>
+      <Modified>2024-01-13T04:57:51.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\LobsterTwo-Bold.ttf">
       <PackagePath>LobsterTwo-Bold.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.313</Modified>
+      <Modified>2024-01-13T04:57:51.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\LobsterTwo-BoldItalic.ttf">
       <PackagePath>LobsterTwo-BoldItalic.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.315</Modified>
+      <Modified>2024-01-13T04:57:51.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\LobsterTwo-Italic.ttf">
       <PackagePath>LobsterTwo-Italic.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.316</Modified>
+      <Modified>2024-01-13T04:57:51.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\LobsterTwo-Regular.ttf">
       <PackagePath>LobsterTwo-Regular.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.318</Modified>
+      <Modified>2024-01-13T04:57:51.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.319</Modified>
+      <Modified>2024-01-13T04:57:51.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.321</Modified>
+      <Modified>2024-01-13T04:57:51.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Black.ttf">
       <PackagePath>Roboto-Black.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.322</Modified>
+      <Modified>2024-01-13T04:57:51.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-BlackItalic.ttf">
       <PackagePath>Roboto-BlackItalic.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.324</Modified>
+      <Modified>2024-01-13T04:57:51.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Bold.ttf">
       <PackagePath>Roboto-Bold.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.326</Modified>
+      <Modified>2024-01-13T04:57:51.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-BoldItalic.ttf">
       <PackagePath>Roboto-BoldItalic.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.328</Modified>
+      <Modified>2024-01-13T04:57:51.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Italic.ttf">
       <PackagePath>Roboto-Italic.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.329</Modified>
+      <Modified>2024-01-13T04:57:51.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Light.ttf">
       <PackagePath>Roboto-Light.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.331</Modified>
+      <Modified>2024-01-13T04:57:51.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-LightItalic.ttf">
       <PackagePath>Roboto-LightItalic.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.333</Modified>
+      <Modified>2024-01-13T04:57:51.298</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Medium.ttf">
       <PackagePath>Roboto-Medium.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.334</Modified>
+      <Modified>2024-01-13T04:57:51.300</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-MediumItalic.ttf">
       <PackagePath>Roboto-MediumItalic.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.336</Modified>
+      <Modified>2024-01-13T04:57:51.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Regular.ttf">
       <PackagePath>Roboto-Regular.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.338</Modified>
+      <Modified>2024-01-13T04:57:51.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Thin.ttf">
       <PackagePath>Roboto-Thin.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.339</Modified>
+      <Modified>2024-01-13T04:57:51.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-ThinItalic.ttf">
       <PackagePath>Roboto-ThinItalic.ttf</PackagePath>
-      <Modified>2024-01-11T23:50:54.363</Modified>
+      <Modified>2024-01-13T04:57:51.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-01-11T23:50:54.364</Modified>
+      <Modified>2024-01-13T04:57:51.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.364</Modified>
+      <Modified>2024-01-13T04:57:51.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.365</Modified>
+      <Modified>2024-01-13T04:57:51.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.374</Modified>
+      <Modified>2024-01-13T04:57:51.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.375</Modified>
+      <Modified>2024-01-13T04:57:51.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.375</Modified>
+      <Modified>2024-01-13T04:57:51.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.375</Modified>
+      <Modified>2024-01-13T04:57:51.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.376</Modified>
+      <Modified>2024-01-13T04:57:51.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.376</Modified>
+      <Modified>2024-01-13T04:57:51.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.376</Modified>
+      <Modified>2024-01-13T04:57:51.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.377</Modified>
+      <Modified>2024-01-13T04:57:51.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.377</Modified>
+      <Modified>2024-01-13T04:57:51.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.377</Modified>
+      <Modified>2024-01-13T04:57:51.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.378</Modified>
+      <Modified>2024-01-13T04:57:51.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.379</Modified>
+      <Modified>2024-01-13T04:57:51.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.380</Modified>
+      <Modified>2024-01-13T04:57:51.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.380</Modified>
+      <Modified>2024-01-13T04:57:51.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.380</Modified>
+      <Modified>2024-01-13T04:57:51.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.381</Modified>
+      <Modified>2024-01-13T04:57:51.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.381</Modified>
+      <Modified>2024-01-13T04:57:51.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.381</Modified>
+      <Modified>2024-01-13T04:57:51.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.382</Modified>
+      <Modified>2024-01-13T04:57:51.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.382</Modified>
+      <Modified>2024-01-13T04:57:51.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.382</Modified>
+      <Modified>2024-01-13T04:57:51.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.382</Modified>
+      <Modified>2024-01-13T04:57:51.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.383</Modified>
+      <Modified>2024-01-13T04:57:51.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.383</Modified>
+      <Modified>2024-01-13T04:57:51.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.383</Modified>
+      <Modified>2024-01-13T04:57:51.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.383</Modified>
+      <Modified>2024-01-13T04:57:51.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.384</Modified>
+      <Modified>2024-01-13T04:57:51.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.384</Modified>
+      <Modified>2024-01-13T04:57:51.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.385</Modified>
+      <Modified>2024-01-13T04:57:51.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.385</Modified>
+      <Modified>2024-01-13T04:57:51.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.386</Modified>
+      <Modified>2024-01-13T04:57:51.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.387</Modified>
+      <Modified>2024-01-13T04:57:51.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.387</Modified>
+      <Modified>2024-01-13T04:57:51.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.387</Modified>
+      <Modified>2024-01-13T04:57:51.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.387</Modified>
+      <Modified>2024-01-13T04:57:51.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.388</Modified>
+      <Modified>2024-01-13T04:57:51.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.388</Modified>
+      <Modified>2024-01-13T04:57:51.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.388</Modified>
+      <Modified>2024-01-13T04:57:51.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.388</Modified>
+      <Modified>2024-01-13T04:57:51.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.389</Modified>
+      <Modified>2024-01-13T04:57:51.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.391</Modified>
+      <Modified>2024-01-13T04:57:51.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.391</Modified>
+      <Modified>2024-01-13T04:57:51.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.391</Modified>
+      <Modified>2024-01-13T04:57:51.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\calories.scale-100.png">
       <PackagePath>calories.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.391</Modified>
+      <Modified>2024-01-13T04:57:51.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\carbs.scale-100.png">
       <PackagePath>carbs.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.392</Modified>
+      <Modified>2024-01-13T04:57:51.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.392</Modified>
+      <Modified>2024-01-13T04:57:51.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.393</Modified>
+      <Modified>2024-01-13T04:57:51.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.393</Modified>
+      <Modified>2024-01-13T04:57:51.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.394</Modified>
+      <Modified>2024-01-13T04:57:51.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.395</Modified>
+      <Modified>2024-01-13T04:57:51.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fat.scale-100.png">
       <PackagePath>fat.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.396</Modified>
+      <Modified>2024-01-13T04:57:51.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fibre.scale-100.png">
       <PackagePath>fibre.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.396</Modified>
+      <Modified>2024-01-13T04:57:51.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\filler.scale-100.png">
       <PackagePath>filler.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.396</Modified>
+      <Modified>2024-01-13T04:57:51.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\goals.scale-100.png">
       <PackagePath>goals.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.397</Modified>
+      <Modified>2024-01-13T04:57:51.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\protein.scale-100.png">
       <PackagePath>protein.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.397</Modified>
+      <Modified>2024-01-13T04:57:51.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sugar.scale-100.png">
       <PackagePath>sugar.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.397</Modified>
+      <Modified>2024-01-13T04:57:51.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sugars.scale-100.png">
       <PackagePath>sugars.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.397</Modified>
+      <Modified>2024-01-13T04:57:51.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\walking.scale-100.png">
       <PackagePath>walking.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.398</Modified>
+      <Modified>2024-01-13T04:57:51.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\water.scale-100.png">
       <PackagePath>water.scale-100.png</PackagePath>
-      <Modified>2024-01-11T23:50:54.398</Modified>
+      <Modified>2024-01-13T04:57:51.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\FitnessApp\Fitnessapp\Fitnessapp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Fitnessapp.deps.json">
       <PackagePath>Fitnessapp.deps.json</PackagePath>
-      <Modified>2024-01-12T08:14:35.432</Modified>
+      <Modified>2024-01-14T03:13:08.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\utsav\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

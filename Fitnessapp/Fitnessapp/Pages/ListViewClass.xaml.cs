@@ -1,6 +1,7 @@
 using Csv;
 using Fitnessapp.Model;
 using Fitnessapp.ViewModel;
+
 using System.Diagnostics;
 using System.IO;
 using Xamarin.Essentials;
@@ -18,6 +19,7 @@ namespace Fitnessapp.Pages
         private double tempFats;
         private double tempFibers;
         private double tempSugar;
+
 
         ListViewModel lvModel;
 
@@ -53,15 +55,12 @@ namespace Fitnessapp.Pages
 
             if (answer)
             {
-                MessagingCenter.Send(this, "FoodItemAdded", new UserTempData
-                {
-                    AddedCalories = selectedName.calories,
-                    AddedProtein = selectedName.protein,
-                    AddedCarbs = selectedName.Carbs,
-                    AddedFats = selectedName.fat,
-                    AddedFibers = selectedName.Fiber,
-                    AddedSugar = selectedName.Sat_Fat
-                });
+                TempCal += selectedName.calories;
+                TempPro += selectedName.protein;
+                TempCarbs += selectedName.Carbs;
+                TempFats += selectedName.fat;
+                TempFibers += selectedName.Fiber;
+                TempSugar += selectedName.Sat_Fat;
 
 
 
@@ -72,7 +71,7 @@ namespace Fitnessapp.Pages
 
        
 
-
+    
 
 
         private void listView_ItemTapped(object sender, ItemTappedEventArgs e)
@@ -83,7 +82,9 @@ namespace Fitnessapp.Pages
             }
         }
 
-
-
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage((new UserTempData(TempCal, TempPro, TempCarbs, TempFats, TempFibers, TempSugar))));
+        }
     }
 }

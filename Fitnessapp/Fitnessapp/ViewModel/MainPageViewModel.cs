@@ -280,7 +280,7 @@ namespace Fitnessapp.ViewModel
         public string DisplayFats => $"{CountingFats}/{TotalFats}";
 
 
-        public double FatsProgress => CountingSteps / TotalSteps;
+        public double FatsProgress => CountingFats / TotalFats;
         public double FatsPercentage => FatsProgress * 100;
 
 
@@ -350,13 +350,14 @@ namespace Fitnessapp.ViewModel
 
         public double SugarPercentage => SugarProgress * 100;
 
-       
-        public MainPageViewModel()
+
+        public void valueTimers()
         {
-            countingsteps = Preferences.Get("CurrentSteps",0);
+            countingsteps = Preferences.Get("CurrentSteps", 0);
             lastStepCountTimestamp = Preferences.Get("LastStepCountTimestamp", DateTime.Now);
 
-            if ( (DateTime.Now - lastStepCountTimestamp) > TimeSpan.FromHours(24)){
+            if ((DateTime.Now - lastStepCountTimestamp) > TimeSpan.FromHours(24))
+            {
                 CountingSteps = 0;
                 Preferences.Set("CurrentSteps", countingsteps);
                 lastStepCountTimestamp = DateTime.Now;
@@ -441,6 +442,11 @@ namespace Fitnessapp.ViewModel
             }
 
             // -------------------------------------------------------------------------------------------------------------------------------------------------------
+        }
+
+        public MainPageViewModel()
+        {
+      
             addWater = new Command(executeAddWater);
 
             try
@@ -452,25 +458,14 @@ namespace Fitnessapp.ViewModel
                 Debug.WriteLine(ex.StackTrace);
             }
 
-            MessagingCenter.Subscribe<ListViewClass, UserTempData>(this, "FoodItemAdded", (sender, message) =>
-            {
 
-                CountingCALOS += message.AddedCalories;
-                CountingPro += message.AddedProtein;
-                CountingCarbs += message.AddedCarbs;
-                CountingFats += message.AddedFats;
-                CountingFibers += message.AddedFibers;
-                CountingSugar += message.AddedSugar;
-            
-
-            });
-
+            valueTimers();
 
 
 
         }
-      
 
+    
         private void executeAddWater()
         {
             CountingWat += 0.25;
